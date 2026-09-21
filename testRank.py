@@ -99,6 +99,7 @@ def scenario_excel():
     Graph1.printRanks()
 
 
-# scenario_1()
-# scenario_2()
-scenario_excel()
+if __name__ == "__main__":
+    # scenario_1()
+    # scenario_2()
+    scenario_excel()
