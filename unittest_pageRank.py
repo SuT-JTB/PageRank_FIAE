@@ -10,7 +10,7 @@ class TestPageRank(unittest.TestCase):
 
         graph.addPage(page)
 
-        self.assertIn(page, graph.pages)
+        self.assertIn(graph.pages, graph.pages)
 
     def test_inOutLink_creates_bidirectional_link(self):
         a = Page("A", 1.0, [], [])
